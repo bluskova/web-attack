@@ -77,9 +77,9 @@ addEventListener("scroll", () => {
 /////////////////////////// hero images /////////////////////////////////
 
 const heroImageSources = [
-  "./img/hero-img/peter-glaser-UVWULib2OHM-unsplash.jpg",
-  "./img/hero-img/chaos-soccer-gear-Cjfl8r_eYxY-unsplash.jpg",
-  "./img/hero-img/vikram-tkv-JO19K0HDDXI-unsplash.jpg",
+  "./img/hero-img/IMG_1118.jpg",
+  "./img/hero-img/IMG_1115.jpg",
+  "./img/hero-img/IMG_1120.jpg",
 ];
 
 // change hero image

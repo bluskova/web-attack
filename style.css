@@ -164,7 +164,7 @@ nav li::first-letter {
 
 /********************  hero section  ********************/
 .hero-section {
-  background-image: url("./img/hero-img/peter-glaser-UVWULib2OHM-unsplash.jpg");
+  background-image: url("./img/hero-img/IMG_1118.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -256,14 +256,16 @@ nav li::first-letter {
 /* background image with opacity => use pseudo-class before */
 #team::before {
   content: "";
-  background-image: url("./img/hero-img/chaos-soccer-gear-Cjfl8r_eYxY-unsplash-black-and-white.jpg");
+  background-image: url("./img/hero-img/IMG_1117.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%) blur(5px);
+  filter: grayscale(100%) blur(5px);
 }
 
 #team h2 {
@@ -548,7 +550,7 @@ nav li::first-letter {
 /* background image with opacity => use pseudo-class before */
 #contact::before {
   content: "";
-  background-image: url("./img/hero-img/peter-glaser-UVWULib2OHM-unsplash-black-and-white.jpg");
+  background-image: url("./img/hero-img/IMG_1118.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
