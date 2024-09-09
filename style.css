@@ -228,6 +228,15 @@ nav li::first-letter {
   padding-bottom: var(--my-gap);
 }
 
+.about-image {
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
 .futsal-results-button-container {
   margin-top: var(--my-gap);
 }
@@ -498,6 +507,10 @@ nav li::first-letter {
 
   margin-top: calc(3 * var(--my-gap));
   margin-bottom: calc(2 * var(--my-gap));
+}
+
+.all-tables .table-container {
+  overflow-x: auto;
 }
 
 .all-tables .table-container .table-title {
