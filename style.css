@@ -229,7 +229,7 @@ nav li::first-letter {
 }
 
 .about-image {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .about-image img {
