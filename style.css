@@ -228,10 +228,6 @@ nav li::first-letter {
   padding-bottom: var(--my-gap);
 }
 
-.about-image {
-  /* text-align: center; */
-}
-
 .about-image img {
   max-width: 100%;
   height: auto;
