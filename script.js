@@ -116,14 +116,18 @@ const changePopupImage = (leftRight) => {
   gallerySlideIndex =
     (gallerySlideIndex + numberOfAllImages + shift) % numberOfAllImages;
 
-  popupImageImg.src = allImages[gallerySlideIndex].getAttribute("src");
+  img_path = allImages[gallerySlideIndex].getAttribute("src");
+  img_path = img_path.replace("small", "full");
+  popupImageImg.src = img_path;
 };
 
 // popup photo -> on click any image
 allImages.forEach((oneImage, index) => {
   oneImage.addEventListener("click", () => {
     popupImage.style.display = "block";
-    popupImageImg.src = oneImage.getAttribute("src");
+    img_path = oneImage.getAttribute("src");
+    img_path = img_path.replace("small", "full");
+    popupImageImg.src = img_path;
     gallerySlideIndex = index;
   });
 });
