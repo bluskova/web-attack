@@ -170,7 +170,7 @@ nav li::first-letter {
 
 /********************  hero section  ********************/
 .hero-section {
-  background-image: url("./img/hero-img/IMG_1118.jpg");
+  background-image: url("./img/hero-img/futsal-playground-002.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +261,7 @@ nav li::first-letter {
 
 /* #team::before {
   content: "";
-  background-image: url("./img/hero-img/IMG_1117.jpg");
+  background-image: url("./img/hero-img/futsal-playground-001.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
@@ -559,7 +559,7 @@ nav li::first-letter {
 /* background image with opacity => use pseudo-class before */
 #contact::before {
   content: "";
-  background-image: url("./img/hero-img/IMG_1118.jpg");
+  background-image: url("./img/hero-img/futsal-playground-002.jpg");
   background-size: cover;
   position: absolute;
   top: 0;

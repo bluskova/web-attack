@@ -77,9 +77,9 @@ addEventListener("scroll", () => {
 /////////////////////////// hero images /////////////////////////////////
 
 const heroImageSources = [
-  "./img/hero-img/IMG_1118.jpg",
-  "./img/hero-img/IMG_1115.jpg",
-  "./img/hero-img/IMG_1120.jpg",
+  "./img/hero-img/futsal-playground-002.jpg",
+  "./img/hero-img/futsal-playground-003.jpg",
+  "./img/hero-img/futsal-playground-004.jpg",
 ];
 
 // change hero image
