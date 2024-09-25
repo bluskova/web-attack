@@ -259,8 +259,7 @@ nav li::first-letter {
   position: relative;
 }
 
-/* background image with opacity => use pseudo-class before */
-#team::before {
+/* #team::before {
   content: "";
   background-image: url("./img/hero-img/IMG_1117.jpg");
   background-size: cover;
@@ -270,9 +269,9 @@ nav li::first-letter {
   bottom: 0;
   left: 0;
   opacity: 0.5;
-  -webkit-filter: grayscale(100%) blur(5px);
-  filter: grayscale(100%) blur(5px);
-}
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */
 
 #team h2 {
   width: 350px;
