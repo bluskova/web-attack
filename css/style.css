@@ -170,7 +170,7 @@ nav li::first-letter {
 
 /********************  hero section  ********************/
 .hero-section {
-  background-image: url("./img/hero-img/futsal-playground-002.jpg");
+  background-image: url("../img/hero-img/futsal-playground-002.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +261,7 @@ nav li::first-letter {
 
 /* #team::before {
   content: "";
-  background-image: url("./img/hero-img/futsal-playground-001.jpg");
+  background-image: url("../img/hero-img/futsal-playground-001.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
@@ -473,13 +473,13 @@ nav li::first-letter {
   cursor: zoom-out;
 }
 
-/********************  history  ********************/
-#history {
+/********************  results  ********************/
+#results {
   background-color: var(--bg-col);
   position: relative;
 }
 
-#history h2 {
+#results h2 {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -487,7 +487,7 @@ nav li::first-letter {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#history .text {
+#results .text {
   line-height: 1.5;
   text-align: justify;
   padding-bottom: var(--my-gap);
@@ -559,7 +559,7 @@ nav li::first-letter {
 /* background image with opacity => use pseudo-class before */
 #contact::before {
   content: "";
-  background-image: url("./img/hero-img/futsal-playground-002.jpg");
+  background-image: url("../img/hero-img/futsal-playground-002.jpg");
   background-size: cover;
   position: absolute;
   top: 0;

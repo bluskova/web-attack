@@ -1,0 +1,48 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.about-box-one {
+  width: 25%;
+  text-align: left;
+}
+
+.about-box-one h3 {
+  border-bottom: 5px solid var(--main-color);
+  margin-right: 40px;
+  text-align: right;
+}
+
+.about-box-two {
+  text-align: justify;
+  width: 75%;
+  margin: var(--my-gap) 0 var(--my-gap) 0;
+}
+
+.about-box-two p {
+  line-height: 1.5;
+  padding-bottom: var(--my-gap);
+}
+
+.futsal-results-button-container {
+  margin-top: var(--my-gap);
+}
+
+.futsal-results-button {
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  background-color: var(--my-white);
+  border: 2px solid var(--main-color);
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.futsal-results-button:hover {
+  background-color: var(--main-color);
+  color: var(--my-white);
+}

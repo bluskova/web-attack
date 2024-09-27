@@ -1,0 +1,36 @@
+@media (max-width: 1065px) {
+  #gallery h2 {
+    width: 100%;
+  }
+
+  .gallery-container .image-container .image {
+    /* 2 pictures next to each other */
+    width: calc((100% - var(--my-gap)) / 2);
+    height: auto;
+  }
+
+  .gallery-container .popup-image span {
+    font-size: 40px;
+  }
+
+  .gallery-container .popup-image .left {
+    padding: 5px 10px;
+    left: var(--my-gap);
+  }
+
+  .gallery-container .popup-image .right {
+    padding: 5px 10px;
+    right: var(--my-gap);
+  }
+
+  .gallery-container .popup-image img {
+    width: 95%;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery-container .image-container .image {
+    width: 75%;
+    height: auto;
+  }
+}

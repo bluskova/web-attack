@@ -1,0 +1,8 @@
+@media (max-width: 1065px) {
+  .content-container {
+    /* all content is left and right aligned, margins 20px */
+    width: calc(100% - var(--margin-left) - var(--margin-right));
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+  }
+}

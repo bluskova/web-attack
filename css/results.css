@@ -1,0 +1,76 @@
+#results {
+  background-color: var(--bg-col);
+  position: relative;
+}
+
+#results h2 {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--my-white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#results .text {
+  line-height: 1.5;
+  text-align: justify;
+  padding-bottom: var(--my-gap);
+}
+
+.all-tables {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: calc(3 * var(--my-gap));
+
+  margin-top: calc(3 * var(--my-gap));
+  margin-bottom: calc(2 * var(--my-gap));
+}
+
+.all-tables .table-container {
+  overflow-x: auto;
+}
+
+.all-tables .table-container .table-title {
+  text-align: center;
+}
+
+.all-tables .table-container .note {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+  text-transform: uppercase;
+  margin-top: calc(var(--my-gap) * -1.5);
+  margin-bottom: calc(2 * var(--my-gap));
+}
+
+.all-tables table {
+  border-collapse: collapse;
+}
+
+.all-tables table thead td {
+  text-align: center;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.all-tables table td {
+  font-size: 12px;
+  padding: 2px 5px 2px 5px;
+}
+
+.all-tables table td:nth-child(2) {
+  text-align: left;
+}
+
+.all-tables table td:not(:nth-child(2)) {
+  text-align: center;
+}
+
+.all-tables table .team-attack {
+  background-color: var(--main-color);
+  color: var(--my-white);
+  font-weight: 700;
+}

@@ -1,0 +1,13 @@
+@media (max-width: 1065px) {
+  #contact h2 {
+    width: 100%;
+  }
+
+  .contact-box {
+    display: block;
+  }
+
+  .contact-separator {
+    display: none;
+  }
+}
