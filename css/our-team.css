@@ -2,27 +2,6 @@
   position: relative;
 }
 
-/* #team::before {
-    content: "";
-    background-image: url("../img/hero-img/futsal-playground-001.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.5;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-  } */
-
-#team h2 {
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--my-white);
-}
-
 .all-cards {
   font-family: tahoma;
   display: flex;

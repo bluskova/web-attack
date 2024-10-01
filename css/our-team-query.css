@@ -1,8 +1,4 @@
 @media (max-width: 1065px) {
-  #team h2 {
-    width: 100%;
-  }
-
   .all-cards {
     justify-content: space-evenly;
   }

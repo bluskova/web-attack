@@ -11,7 +11,7 @@
 }
 
 .about-box-one h3 {
-  border-bottom: 5px solid var(--main-color);
+  border-bottom: 3px solid var(--main-color);
   margin-right: 40px;
   text-align: right;
 }

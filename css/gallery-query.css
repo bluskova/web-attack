@@ -1,8 +1,4 @@
 @media (max-width: 1065px) {
-  #gallery h2 {
-    width: 100%;
-  }
-
   .gallery-container .image-container .image {
     /* 2 pictures next to each other */
     width: calc((100% - var(--my-gap)) / 2);
