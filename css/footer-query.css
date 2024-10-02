@@ -1,0 +1,6 @@
+@media (max-width: 1065px) {
+  .footer-wrapper {
+    flex-direction: column-reverse;
+    gap: calc(2 * var(--my-gap));
+  }
+}

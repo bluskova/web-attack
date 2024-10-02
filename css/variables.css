@@ -1,0 +1,13 @@
+:root {
+  --my-black: rgb(0, 0, 0);
+  --my-white: rgb(255, 255, 255);
+  --my-gray-light: rgb(187, 187, 187);
+  --my-gray-dark: rgb(78, 80, 82);
+  --my-gray-h2: rgb(66, 66, 66);
+  --bg-col: rgb(255, 255, 255);
+  --main-color: rgb(206, 75, 39);
+  --main-color-alpha9: rgb(206, 75, 39, 0.9);
+  --main-color-alpha5: rgb(206, 75, 39, 0.5);
+  --header-height: 100px;
+  --my-gap: 20px;
+}

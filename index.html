@@ -14,7 +14,7 @@
     <meta property="og:description" content="Futsalový klub Attack Brno" />
     <meta
       property="og:image"
-      content="https://attack-brno.netlify.app/img/hero-img/IMG_1117.jpg"
+      content="https://attack-brno.netlify.app/img/hero-img/futsal-playground-001.jpg"
     />
     <meta property="og:url" content="https://attack-brno.netlify.app/" />
     <meta property="og:site_name" content="Attack Brno" />
@@ -25,7 +25,7 @@
     <meta property="twitter:description" content="Futsalový klub Attack Brno" />
     <meta
       property="twitter:image"
-      content="https://attack-brno.netlify.app/img/hero-img/IMG_1117.jpg"
+      content="https://attack-brno.netlify.app/img/hero-img/futsal-playground-001.jpg"
     />
     <meta property="twitter:url" content="https://attack-brno.netlify.app/" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -34,8 +34,8 @@
     <link rel="icon" type="image/png" href="./img/icon/football_icon.png" />
 
     <!-- Style & query -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="query.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main-query.css" />
 
     <!-- Fonts & icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,7 +56,10 @@
         <div class="my-header">
           <div class="logo">
             <a href="#home">
-              <img src="./img/logo/logo_attack.png" alt="logo" />
+              <img
+                src="./img/logo/logo-attack-brno.png"
+                alt="Logo Attack Brno"
+              />
             </a>
           </div>
           <nav>
@@ -67,7 +70,9 @@
               <li><a href="#about-us" class="menu-item">O nás</a></li>
               <li><a href="#team" class="menu-item">Sestava</a></li>
               <li><a href="#gallery" class="menu-item">Galerie</a></li>
-              <li><a href="#history" class="menu-item">Historie</a></li>
+              <li>
+                <a href="#results" class="menu-item">Tabulky</a>
+              </li>
               <li><a href="#contact" class="menu-item">Kontakt</a></li>
             </ul>
           </nav>
@@ -120,17 +125,6 @@
 
           <div class="about-wrapper">
             <div class="about-box-one">
-              <h3>Naše dresy</h3>
-            </div>
-            <div class="about-box-two">
-              <div class="image-box">
-                <img src="./img/dres/dres.png" alt="dres attack" />
-              </div>
-            </div>
-          </div>
-
-          <div class="about-wrapper">
-            <div class="about-box-one">
               <h3>Historie</h3>
             </div>
             <div class="about-box-two">
@@ -155,6 +149,20 @@
               </p>
             </div>
           </div>
+
+          <div class="about-wrapper">
+            <div class="about-box-one">
+              <h3>Naše dresy</h3>
+            </div>
+            <div class="about-box-two">
+              <div class="image-box">
+                <img
+                  src="./img/dres/dres-attack-brno.png"
+                  alt="Dres Attack Brno"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -169,7 +177,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/robert-bohac.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -189,7 +197,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/profile-icon.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -209,7 +217,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/profile-icon.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -229,7 +237,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/jaromir-kadlec.jpeg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -249,7 +257,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/michal-kralicek.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -269,7 +277,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/profile-icon.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -289,7 +297,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/martin-liska.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -309,7 +317,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/ivan-luska.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -329,7 +337,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/martin-turecek.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -349,7 +357,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/martin-tusla.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -369,7 +377,7 @@
                 <img
                   class="picture-img"
                   src="./img/team/profile-icon.jpg"
-                  alt="profile picture"
+                  alt="Profilová fotografie"
                 />
               </div>
 
@@ -396,126 +404,129 @@
             <div class="image-container">
               <div class="image">
                 <img
-                  src="./img/gallery/new/gallery-006-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/new/attack-brno-006-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/new/gallery-005-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/new/attack-brno-005-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/new/gallery-004-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/new/attack-brno-004-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/new/gallery-003-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/new/attack-brno-003-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/new/gallery-002-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/new/attack-brno-002-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/new/gallery-001-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/new/attack-brno-001-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
             </div>
           </div>
 
-          <h3>Fotografie z&nbsp;prvních sezón</h3>
+          <div class="about-box-one">
+            <h3>Fotografie z&nbsp;prvních sezón</h3>
+          </div>
+          <div class="about-box-two"></div>
 
           <div class="gallery-container">
             <div class="image-container">
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-011-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-011-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-010-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-010-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-009-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-009-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-008-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-008-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-007-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-007-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-006-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-006-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-005-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-005-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-004-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-004-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-003-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-003-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-002-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-002-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
 
               <div class="image">
                 <img
-                  src="./img/gallery/history/gallery-history-001-small.jpg"
-                  alt="photo from a futsal match"
+                  src="./img/gallery/history/attack-brno-history-001-small.jpg"
+                  alt="Fotografie ze zápasu"
                 />
               </div>
             </div>
@@ -525,18 +536,18 @@
               <span class="left">&#60;</span>
               <span class="right">&#62;</span>
               <img
-                src="./img/gallery/new/gallery-001-full.jpg"
-                alt="photo from a futsal match"
+                src="./img/gallery/new/attack-brno-001-full.jpg"
+                alt="Fotografie ze zápasu"
               />
             </div>
           </div>
         </div>
       </section>
 
-      <!-------  history  ------->
-      <section id="history" class="anchor section-padding">
+      <!-------  results  ------->
+      <section id="results" class="anchor section-padding">
         <div class="content-container">
-          <h2>Historie</h2>
+          <h2>Historické tabulky</h2>
 
           <div class="all-tables">
             <div class="table-container">
@@ -2392,7 +2403,10 @@
             <div class="table-container">
               <h3 class="table-title">Naše sestava v roce 2005</h3>
               <div class="image-box">
-                <img src="./img/team-2005/sestava_2005.jpg" alt="dres attack" />
+                <img
+                  src="./img/team-2005/sestava-attack-2005.jpg"
+                  alt="Sestava Attack Brno v roce 2005"
+                />
               </div>
             </div>
           </div>
@@ -2682,7 +2696,7 @@
             <div class="footer-one-box">
               <p>Jsme členy Brněnské asociace futsalu</p>
               <a href="http://www.futsalbrno.cz/" target="_blank">
-                <img src="./img/logo/logo_baf.png" />
+                <img src="./img/logo/logo-baf-futsal.png" alt="Logo BAF" />
               </a>
             </div>
           </div>

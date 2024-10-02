@@ -1,0 +1,37 @@
+@media (max-width: 1065px) {
+  .my-header {
+    position: relative;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    width: calc(100% + var(--margin-left) + var(--margin-right));
+    left: calc(var(--margin-left) * -1);
+    background-color: var(--main-color-alpha9);
+  }
+
+  nav li {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: var(--my-gap);
+  }
+
+  .menu-icon-container {
+    display: block;
+    color: var(--my-white);
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1065px) {
+  nav {
+    display: block !important;
+  }
+}

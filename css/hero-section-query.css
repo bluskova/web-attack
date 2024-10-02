@@ -1,0 +1,11 @@
+@media (max-width: 1065px) {
+  .hero-section {
+    max-height: 200px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .hero-section {
+    height: 650px;
+  }
+}

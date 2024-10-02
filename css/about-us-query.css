@@ -1,0 +1,16 @@
+@media (max-width: 1065px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+
+  .about-box-one,
+  .about-box-two {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-box-one h3 {
+    margin-right: 0;
+    text-align: left;
+  }
+}

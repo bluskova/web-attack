@@ -1,0 +1,91 @@
+#team {
+  position: relative;
+}
+
+.all-cards {
+  font-family: tahoma;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: var(--my-gap);
+}
+
+.one-card {
+  background-color: var(--my-white);
+  text-align: center;
+  position: relative;
+  border: 1px solid var(--main-color-alpha5);
+  width: 250px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.one-card .picture-container {
+  display: inline-block;
+  background-color: var(--main-color);
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.one-card .picture-container .picture-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: all 0.9s ease;
+}
+
+.one-card:hover .picture-container .picture-img {
+  box-shadow: 0 0 0 14px var(--my-white);
+  transform: scale(0.7);
+}
+
+.one-card .name {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.one-card .position {
+  color: var(--my-gray-dark);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.one-card .game-number {
+  color: var(--my-white);
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s ease;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  visibility: hidden;
+}
+
+.one-card:hover .game-number {
+  visibility: visible;
+}
+
+.one-card .game-number .number-label {
+  text-transform: lowercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.one-card .game-number .number {
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 10px;
+}

@@ -1,0 +1,7 @@
+@media (max-width: 1065px) {
+  :root {
+    --header-height: 65px;
+    --margin-left: 20px;
+    --margin-right: 20px;
+  }
+}
