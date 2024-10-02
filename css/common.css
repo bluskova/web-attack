@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(66, 66, 66);
+  color: var(--my-gray-h2);
   border-bottom: 5px solid var(--main-color);
 }
 

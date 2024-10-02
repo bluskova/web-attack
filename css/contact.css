@@ -43,7 +43,7 @@
 
 .contact-link:hover {
   text-decoration: underline;
-  color: var(--link-hover-col);
+  color: var(--main-color);
 }
 
 .contact-separator {

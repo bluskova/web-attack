@@ -30,7 +30,7 @@ footer {
 
 .contact-link-footer:hover {
   text-decoration: underline;
-  color: var(--link-hover-col);
+  color: var(--main-color);
 }
 
 .footer-one-box {
