@@ -12,10 +12,11 @@ header {
   align-items: center;
   justify-content: space-between;
   height: var(--header-height);
+  transition: all 0.3s ease-out;
 }
 
 .logo {
-  margin-top: 20px;
+  margin-top: auto;
   margin-bottom: auto;
 }
 
