@@ -87,6 +87,11 @@ h3::first-letter {
   transition: all 0.3s ease-out;
 }
 
+.image-box {
+  display: flex;
+  justify-content: center;
+}
+
 .image-box img {
   max-width: 100%;
   height: auto;

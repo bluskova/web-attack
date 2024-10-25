@@ -13,4 +13,8 @@
     margin-right: 0;
     text-align: left;
   }
+
+  #dres-img {
+    justify-content: center;
+  }
 }
