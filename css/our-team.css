@@ -10,6 +10,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: var(--my-gap);
+  padding-top: calc(3 * var(--my-gap));
 }
 
 .one-card {

@@ -46,3 +46,7 @@
   background-color: var(--main-color);
   color: var(--my-white);
 }
+
+#dres-img {
+  justify-content: start;
+}
